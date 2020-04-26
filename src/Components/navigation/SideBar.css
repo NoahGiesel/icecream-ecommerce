@@ -1,0 +1,38 @@
+    .SideBar {
+        position: absolute;  
+        height: 93vh;
+        width: 100%;
+        z-index: 999;
+        margin-top: 9.2vh;
+        background-color: rgb(255, 130, 28);
+        right : 0%;
+        transition: 600ms ease;
+    }
+    
+    .menu-active{  
+        right: 100%;
+    }
+
+    .u-list-sidebar {
+        display: flex; 
+        flex-direction: column;
+        list-style: none;
+        width: 100%;  
+        float: right; 
+        font-weight: bold; 
+        text-align: center;
+        height: 93vh; 
+    }
+
+
+    .u-list-sidebar li   { 
+        margin: auto 0;
+        font-size: 3rem;
+    }
+    .u-list-sidebar li  a {
+        padding: 0 2vw;
+        color:  #fff;
+        text-decoration: none;
+        margin: 5px 0;
+    }
+ 

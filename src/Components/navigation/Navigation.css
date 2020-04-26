@@ -1,9 +1,9 @@
  .Navigation {
-     width: 7vh;
-     background-color: rgb(194, 188, 138);
+     height: 7vh;
+     background-color: rgb(255, 130, 28);
      width: 100%;
      padding: 1vh 2vw ; 
-     border-bottom: 2px solid rgb(155, 150, 109);
+     border-bottom: 2px solid rgb(206, 112, 36);
      z-index: 999; 
      position: fixed;
      top: 0;
@@ -20,16 +20,21 @@
      list-style: none;
      width: auto; 
      float: right;
-     margin: 2vh 2vw;
+     margin: 2vh 5vw;
      font-weight: bold; 
+     animation: 400ms  ease;
  }
  
  .u-list li  a {
-     padding: 0 2vw;
-     color: black;
-     text-decoration: none;
+        padding: 1.4vh 2vw;
+        color: #fff;
+        text-decoration: none;
     }
     
+    .u-list li  a:hover {
+     color: crimson; 
+     background-color: #fff;
+   }
     .cone {
         display: none;
        position: absolute;

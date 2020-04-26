@@ -1,0 +1,47 @@
+ .Navigation {
+     width: 7vh;
+     background-color: rgb(194, 188, 138);
+     width: 100%;
+     padding: 1vh 2vw ; 
+     border-bottom: 2px solid rgb(155, 150, 109);
+     z-index: 999; 
+     position: fixed;
+     top: 0;
+ }
+
+
+ .immages {
+     height: 7vh; 
+     display: inline-block;
+    }
+    
+    .u-list {
+    display: flex; 
+     list-style: none;
+     width: auto; 
+     float: right;
+     margin: 2vh 2vw;
+     font-weight: bold; 
+ }
+ 
+ .u-list li  a {
+     padding: 0 2vw;
+     color: black;
+     text-decoration: none;
+    }
+    
+    .cone {
+        display: none;
+       position: absolute;
+       right: 6vw;
+       top: 1vh;
+    }
+    
+    @media only screen and (max-width : 700px) {
+        .cone {
+            display: block !important;
+        }  
+        .u-list {
+            display: none;
+        }
+}

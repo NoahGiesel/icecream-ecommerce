@@ -2,11 +2,11 @@
         position: absolute;  
         height: 93vh;
         width: 100%;
-        z-index: 999;
-        margin-top: 9.2vh;
+        z-index: 999; 
         background-color: rgb(255, 130, 28);
         right : 0%;
         transition: 600ms ease;
+        margin-top: 0vh;
     }
     
     .menu-active{  
@@ -21,13 +21,13 @@
         float: right; 
         font-weight: bold; 
         text-align: center;
-        height: 93vh; 
+        height: 80%; 
     }
 
 
     .u-list-sidebar li   { 
         margin: auto 0;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .u-list-sidebar li  a {
         padding: 0 2vw;

@@ -11,7 +11,7 @@ function Navigation( props ) {
  
   return (
     <div className="Navigation">  
-       <a  href="##"><img className="immages" src={logo} alt={"logo"}/> </a>  
+       <a  href="##"><img className="immages" src={logo} alt={"logo"}/> </a>   
         <ul className="u-list">
             <li><a  href="##">Home</a></li>
             <li><a href="##">Shop</a></li>

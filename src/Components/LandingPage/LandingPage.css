@@ -1,5 +1,56 @@
 .LandingPage { 
-    margin-top: 8vh;
-    height: 92vh;
-    padding: 0 10px;
+    margin: 9vh 0 0 0 ;
+    height: 91vh;
+    padding: 0 0;
+    background-color: rgba(255, 225, 186, 0.575);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    text-align: center; 
+}
+
+.black_cone { 
+    margin: 0;
+    padding: 30px 0;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.text-section { 
+    padding: 40px 10px;
+}
+
+.text-section h3{
+    font-size: 1.5rem;   
+}
+.text-section p{
+    font-size: 0.8rem;
+}
+
+
+    
+@media only screen and (min-width : 700px) {
+    .LandingPage {  
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: none ; 
+        text-align: center; 
+        height: auto;
+    }
+
+    .text-section {  
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding-top: 10rem  ;
+    }
+    .text-section h3{
+        font-size:3.5rem;   
+    }
+    .text-section p{
+        font-size: 1.2rem;
+    }
+    
+    
+
 }

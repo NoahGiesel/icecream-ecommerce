@@ -1,0 +1,19 @@
+
+
+
+.container { 
+    max-width: 100% ;
+    margin: 0 auto;
+    background : #f9f9f9;
+    font-size: 24px; 
+}
+
+.parallax {
+    background: url("../../img/ice-cafe.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 430px;
+    filter: blur(2px);
+}
+
+ 

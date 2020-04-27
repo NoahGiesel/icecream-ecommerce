@@ -2,7 +2,7 @@
     margin: 9vh 0 0 0 ;
     height: 91vh;
     padding: 0 0;
-    background-color: rgba(255, 225, 186, 0.575);
+    background-color: #F7FCF3;
     display: grid;
     grid-template-rows: 50% 50%;
     text-align: center; 

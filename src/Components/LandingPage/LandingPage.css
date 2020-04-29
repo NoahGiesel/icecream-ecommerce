@@ -2,10 +2,13 @@
     margin: 9vh 0 0 0 ;
     height: 91vh;
     padding: 0 0;
-    background-color: #F7FCF3;
+	background-color: #b4ffff;
     display: grid;
     grid-template-rows: 50% 50%;
     text-align: center; 
+    background-attachment: fixed;
+    background: url("../../img/landing_background2.jpg") no-repeat center;
+    background-size: cover;  
 }
 
 .black_cone { 

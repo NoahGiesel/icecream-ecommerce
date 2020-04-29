@@ -1,27 +1,29 @@
 * {
 	box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0; 
 }
 
 *:focus {
   outline: 0;
 }
-
- 
-
-body { 
-	background-color: #f3f3f3; 
-}
- 
-
+  
 .Selection .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center; 
 	position: relative; 
 	width: 100%;
+	background-color: #b4ffff;
 }
+
+.Selection .container h2 {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;  
+	color: #FF821C; 
+}
+
 
 .Selection .container .card:before {
 	height: 15px;
@@ -63,7 +65,7 @@ body {
 
 .Selection .container .card:before,
 .Selection .container .card:after {
-	background-color: #00c0f6;
+	background-color: rgb(228, 113, 19);
 	content: '';
 	position: absolute;
 	top: -15px;
@@ -77,7 +79,7 @@ body {
 
 .Selection .container .card .img-box {
 	align-items: center;
-	background-color: #00c7ff;
+	background-color: #FF821C;
 	border-radius: 0 0 50%;
 	display: flex;
 	height: 200px;
@@ -130,8 +132,19 @@ body {
 	background-color: #ffffff;
 	color: #777777;
 	height: 200px;
-	padding: 20px;
+	padding: 12px;
 	position: relative;
 	text-align: center;
 	width: 100%;
+}
+.Selection .container .card .content p{
+	margin-bottom: 15px;
+}
+
+.Selection .container .card .content a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: #FF821C;
+	border-radius: 15px; 
 }

@@ -6,6 +6,7 @@ import SideBar from "./Components/navigation/SideBar"
 import LandingPage from "./Components/LandingPage/LandingPage"
 import ParallaxSection from "./Components/ParallaxSection/PrallaxSection"
 import Selection from "./Components/Selection/Selection"
+import About from "./Components/About/About"
 
 function App() {
 
@@ -24,8 +25,9 @@ const menuToggler = () => {
        <Navigation onMenuClick={menuToggler }/> 
        <SideBar listentoClick={isToggled} /> 
        <LandingPage /> 
-       <ParallaxSection /> 
        <Selection/> 
+       <ParallaxSection /> 
+       <About />
     </div>
   );
 }

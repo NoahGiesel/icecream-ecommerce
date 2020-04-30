@@ -8,13 +8,16 @@
   outline: 0;
 }
   
+.Selection {
+	margin: 30px 0;
+}
 .Selection .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center; 
 	position: relative; 
 	width: 100%;
-	background-color: #F7FCF3;
+	background-color: #F7FCF3; 
 }
 
 .Selection .container h2 {

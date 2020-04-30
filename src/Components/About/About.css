@@ -75,7 +75,7 @@
     
     .About .container {
         width: 100%;
-        height: 100%;
+        height: auto;
         display: grid;
         grid-template-rows:  1fr 1fr;
         grid-template-columns: none; 
@@ -83,7 +83,7 @@
     }
 
     .About .container .right-section {  
-        padding: 50px0;  
+        padding: 50px 0;  
         display: grid;
         grid-template-rows: none;
         grid-template-columns:  1fr 1fr; 
@@ -98,6 +98,26 @@
 }
 
 @media only screen and (max-width : 840px) {
+    .About .container .left-section  .wrapper{
+        width: 80%; 
+    }
+ 
+    .About .container .right-section {  
+        padding: 50px 0;  
+        display: grid;
+        grid-template-rows: none;
+        grid-template-columns: 1fr; 
+        margin: 0 auto ;
+    }
+
+    .About .container .right-section img{   
+        margin: 5px 0;  
+        height: auto;
+    }
+
+}  
+ 
+@media only screen and (max-width :450px) {
     .About .container .right-section {  
         padding: 50px 0;  
         display: grid;
@@ -107,8 +127,8 @@
     }
 
     .About .container .right-section img{   
-        margin: 5px 0;  
-        height: auto;
+        margin: 5px auto;
+        width: 80%;
     }
 
 }

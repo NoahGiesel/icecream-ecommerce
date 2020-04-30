@@ -3,7 +3,7 @@
     padding: 0 0;
 	background-color: #b4ffff;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 1fr 1fr;
     text-align: center; 
     background-attachment: fixed;
     background: url("../../img/landing_background2.jpg") no-repeat center;
@@ -19,6 +19,7 @@
 
 .text-section { 
     padding: 40px 10px;
+    margin: 0 auto;
 }
 
 .text-section h3{
@@ -26,8 +27,7 @@
 }
 .text-section p{
     font-size: 0.8rem;
-}
-
+} 
 
     
 @media only screen and (min-width : 700px) {
@@ -41,9 +41,8 @@
 
     .text-section {  
         display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        flex-direction: column; 
+        align-items: flex-start;
         padding-top: 10rem  ;
     }
     .text-section h3{

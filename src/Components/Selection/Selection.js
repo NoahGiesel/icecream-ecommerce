@@ -1,6 +1,5 @@
 import React  from 'react';
-import './Selection.css';
-import cone from '../../img/black_cone.png'    
+import './Selection.css'; 
 
 
 function Selection() { 

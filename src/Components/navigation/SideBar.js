@@ -9,9 +9,12 @@ function SideBar( props ) {
 
       let dynamicClass = 'SideBar';
    
-        if ( props.listentoClick == true) {
-          dynamicClass += ' menu-active';
-          console.log("Them MENU IS NOW menu-active")
+        if ( props.listentoClick === true) {
+          dynamicClass += ' menu-active'; 
+          document.documentElement.style.overflow = 'auto'; 
+        }else { 
+          document.documentElement.style.overflow = 'hidden';  
+          
         }
   
 

@@ -1,12 +1,13 @@
     .SideBar {
-        position: absolute;  
+        position: fixed;  
         height: 93vh;
         width: 100%;
         z-index: 999; 
-        background-color: rgb(255, 130, 28);
+        background-color: #ff821c;
         right : 0%;
         transition: 600ms ease;
         margin-top: 0vh;
+        margin-top: 9vh;
     }
     
     .menu-active{  

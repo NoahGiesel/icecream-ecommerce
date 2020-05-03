@@ -1,6 +1,6 @@
 .LandingPage {  
     height: 100vh;
-    padding: 10vh 0;
+    padding: 10vh 0 10vh 0;
 	background-color:   #FF821C;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -10,7 +10,7 @@
     background: url("../../img/landing_background2.jpg") no-repeat center;
     background-size: cover;  
 }
-
+ 
 .LandingPage  .ice-section img{
     width: 30%;
 

@@ -5,7 +5,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns:none ;
-    text-align: center; 
+    text-align: center ; 
     background-attachment: fixed;
     background: url("../../img/landing_background2.jpg") no-repeat center;
     background-size: cover;  

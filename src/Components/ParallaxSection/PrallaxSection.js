@@ -9,7 +9,7 @@ function ParallaxSection( props ) {
 }}>
           <div className="text">
             <h2>{props.msg}</h2>
-            <h3>{props.msg1}</h3>
+            <h3>{props.msg1} </h3>
           </div>
          </div>
     </div>

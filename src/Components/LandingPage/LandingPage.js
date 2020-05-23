@@ -8,7 +8,7 @@ function LandingPage()  {
 
   return (
     <div className="LandingPage">  
-        <div className="ice-section">
+        <div className="ice-section" >
         <a  href="##"><img className="black_cone" src={black_cone} alt={"black_cone"}/> </a>  
         </div>
         <div className="text-section" >

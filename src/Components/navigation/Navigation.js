@@ -8,7 +8,7 @@ import cone from '../../img/cone.png'
 
 function Navigation( props ) { 
   useEffect(() => {
-    window.addEventListener( 'scroll',  () =>  {
+    window.addEventListener( 'scroll',  () =>   {
       if (window.pageYOffset > window.screen.height  ){ 
         document.getElementById("Navigation").style.backgroundColor  = "#ff821c"; 
       }else {

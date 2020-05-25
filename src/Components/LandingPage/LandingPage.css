@@ -3,7 +3,7 @@
     padding: 10vh 0 10vh 0;
 	background-color:   #FF821C;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     grid-template-columns:none ;
     text-align: center ; 
     background-attachment: fixed;

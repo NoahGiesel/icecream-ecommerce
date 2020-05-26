@@ -15,7 +15,7 @@ function About( props ) {
                     <p>  {props.p} </p>
                 </div>
             </div>
-            <div className="right-section">
+            <div className="right-section" >
                 <img className="leftImg" src={props.img1} alt={"leftImg"}/> 
                 <img className="rightImg" src={props.img2} alt={"rightImg"}/>  
             </div>

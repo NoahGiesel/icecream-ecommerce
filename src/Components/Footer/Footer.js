@@ -13,7 +13,7 @@ function Footer() {
             </div>
              
         </div>
-        <div className="wrapper">
+        <div className="wrapper" >
             <h3>  @2020  • Noah Giesel • <span role="img" aria-label="cake">🎂</span> </h3>
         </div>
     </div>

@@ -21,7 +21,7 @@ function App() {
 const About_p = "It all began, now more than six years ago, with two people wanting to bring an alternative way of eating and drinking. The idea was to bring something new to a Renaissance and very traditional city – emphasizing on health, freshness, simplicity and quickness. We are proud to offer locals and visitors healthy, greener and fresh fast food […]"
 const Searching_p = " Always expanding and searching for new motivated employees.Contribute to our project to provide a healthy fast food in a peaceful and quiet environment, always welcome to send us your application!"
  
-const [isToggled, setIsToggled] = useState(true);
+const [isToggled, setIsToggled] = useState(true) ;
 
 const menuToggler = () => {
   setIsToggled(!isToggled) 

@@ -13,7 +13,7 @@ function SideBar( props ) {
           dynamicClass += ' menu-active'; 
           document.documentElement.style.overflow = 'auto'; 
         }else { 
-          document.documentElement.style.overflow = 'hidden';  
+          document.documentElement.style.overflow = 'hidden' ;  
           
         }
   
